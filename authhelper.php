@@ -1,5 +1,5 @@
 ﻿<?php
-	include_once 'autoload.php';
+	require_once 'autoload.php';
 	class AuthHelper
 	{
 		public $user;
@@ -19,7 +19,6 @@
 			$result = $dbhelper->RunQuery($query);
 			return $result;
 		}
-	
 	}
 	
 ?>

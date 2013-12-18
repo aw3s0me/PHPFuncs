@@ -1,6 +1,6 @@
 ﻿<?php
 
-	include_once 'sanitize.php';
+	require_once 'sanitize.php';
 	
 	class User
 	{

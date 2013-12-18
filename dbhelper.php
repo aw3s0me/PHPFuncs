@@ -1,5 +1,5 @@
 ﻿<?php
-	class DbBelper {
+	class DbHelper {
 		private $host;
 		private $username;
 		private $password;
