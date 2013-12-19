@@ -30,5 +30,10 @@
 			return $result;
 		}
 		
+		public function IsConnected() 
+		{
+			return ($link==null);
+		}
+		
 	}
 ?>
