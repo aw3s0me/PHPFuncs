@@ -8,7 +8,7 @@
 			for($i=0, $n = count($args); $i < $n; $i++)
 				$this->add($args[i]);
 		}
-		
+	
 		public function __get($name = null)
 		{
 			return $this->self[$name];
